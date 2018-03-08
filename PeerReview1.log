@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  7 MAR 2018 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  7 MAR 2018 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -518,7 +518,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
-No file PeerReview1.aux.
+(./PeerReview1.aux)
 \openout1 = `PeerReview1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -535,6 +535,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
+
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
@@ -673,9 +674,6 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 LaTeX Warning: No \author given.
 
 
-Package lastpage Warning: Rerun to get the references right on input line 92.
-
-
 AED: lastpage setting LastPage
 [1
 
@@ -688,16 +686,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `PeerReview1.out' has not changed.
 (rerunfilecheck)             Checksum: CB4CAD3BCA61E654538F7A612D26BCD4;224.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 12542 strings out of 492982
- 192214 string characters out of 6132527
- 340349 words of memory out of 5000000
+ 12544 strings out of 492982
+ 192246 string characters out of 6132527
+ 340389 words of memory out of 5000000
  15894 multiletter control sequences out of 15000+600000
  8432 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
