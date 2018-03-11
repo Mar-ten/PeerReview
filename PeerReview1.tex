@@ -74,6 +74,8 @@
 \setlength{\parindent}{0cm}
 \usepackage[left=.5in, right=0.50in, top=1.00in,bottom=1.00in]{geometry}
 \usepackage{microtype} 
+\usepackage{setspace}
+\doublespace
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -83,10 +85,30 @@
 
 
 \section{Synopsis:} 
-This paper discusses and presents results for an experiment where laminated plate theory (LPT) in conjunction with experimental techniques was used to determine the correct layup orientations of a carbon-fiber composite laminate from a list of possible layups. The experimental techniques included a four-point bend test of the specimen with strain gauges attached to measure strains during flexure. These strains were then compared to calculated strains using LPT for the given loading conditions for all possible layups. The best match was determined by picking the layup configuration that resulted in the lowest L2 error.  
+This paper discusses and presents results for an experiment where laminated plate theory (LPT) in conjunction with experimental techniques was used to determine the correct layup orientations of a carbon-fiber composite laminate from a list of possible layups. The experimental techniques included a four-point bend test of the specimen with strain gauges attached to measure strains during flexure. These strains were then compared to calculated strains using LPT for the given loading conditions for all possible layups. The best match was determined by picking the layup configuration that resulted in the lowest L2 error.
+\\ 
+\\
+\textit{\underline{Recommendation:} Accept with minor revisions}
 
 \section{Comments on the technical aspects of the manuscript}
-The test method for ASTM D6272-17 is not being replicated in this experiment as claimed. The mentioning of this standard should be left out of the manuscript. The notation $N$ was double used, once to describe number of plies and secondly for normal forces. Equation 3 seems to be unnecessary and might be better stated as a conditional exception.
+ 
+More justification is needed for omitting strain gauge measurements of gauge 2.  It was claimed that the orientation of gauge 2, y-direction, resulted in relatively small strain measurements and thus should be left out of analysis. It is unclear as to what the threshold is and how this threshold is justified. What is too small and why? Additionally, there is no mention of what LPT would predict for strains in the y-direction, which undermines the results.  It would be beneficial to  include LPT calculations for both directions and to note the observed differences.
+\\
+\\
+It is stated in the Errors and Uncertainties section that during the experiment the specimen experienced a load exceeding 300 N. This is inconsistent with the loads presented prior and and should be mentioned so. Clarification is also needed as to wether this was intentional and what was the magnitude of this load. It should also be mentioned wether any signs of failure, such as cracking noises or permainet deformations, were observed.
+\\
+\\
+The term $\bar Q_{i,j}$ in equations 1b, 1c, and 1d is not discussed or derfined. Equation 3 seems to be unnecessary and might be better stated as a conditional exception. Equations 8a, and 8b  the variable $m_x$ is not defined.  It is also unclear how equation 8a and equation 8b  were formulated.
+\\
+\\
+The calculated strains from LPT were transformed according to the miss-alignment of strain gauge 1. The motivation for transforming the calculated strains instead of measured strains was unclear.  Is there advantage or a possibility reducing error using this method as opposed to strain gauge rosette equations?
+\\
+\\
+The manuscript contains a few inconsistencies.  Two different reference coordinate systems,$(x,y)$ and $(0,90)$, were used in describing  gauge location on specimen. It was said strains of all five laminate layups would calculated using LPT, but only three are presented. Lastly, the notation, $N$, was used to indicate number of plies as well as normal forces.
+\\
+\\
+The test method for ASTM D6272-17 is not being replicated in this experiment as claimed. The mentioning of this standard should be left out of the manuscript.  
 \section{Comments related to non-technical aspects of the manuscript} 
+The document over all was well written with the exception of a some grammatical errors, and document structure.  T
 
 \end{document}
