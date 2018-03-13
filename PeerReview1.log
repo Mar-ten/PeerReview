@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  12 MAR 2018 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  12 MAR 2018 21:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -466,22 +466,6 @@ sep char (CT)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip73
-\f@nch@O@elh=\skip74
-\f@nch@O@erh=\skip75
-\f@nch@O@olh=\skip76
-\f@nch@O@orh=\skip77
-\f@nch@O@elf=\skip78
-\f@nch@O@erf=\skip79
-\f@nch@O@olf=\skip80
-\f@nch@O@orf=\skip81
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count138
@@ -511,7 +495,7 @@ File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip82
+\MT@outer@space=\skip73
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -600,10 +584,6 @@ Package caption Info: End \AtBeginDocument code.
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 82.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -714,28 +694,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--113
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2] 
-AED: lastpage setting LastPage
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
+[2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./PeerReview1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `PeerReview1.out' has not changed.
-(rerunfilecheck)             Checksum: CB4CAD3BCA61E654538F7A612D26BCD4;224.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  )
 (\end occurred inside a group at level 1)
@@ -743,13 +710,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
 ### semi simple group (level 1) entered at line 78 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12655 strings out of 492982
- 193854 string characters out of 6132527
- 360239 words of memory out of 5000000
- 15963 multiletter control sequences out of 15000+600000
- 14837 words of font info for 77 fonts, out of 8000000 for 9000
+ 12489 strings out of 492982
+ 191688 string characters out of 6132527
+ 356424 words of memory out of 5000000
+ 15810 multiletter control sequences out of 15000+600000
+ 14279 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,43p,977b,1396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,40p,977b,1391s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
@@ -757,14 +724,13 @@ m/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-
-Output written on PeerReview1.pdf (3 pages, 114075 bytes).
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+>
+Output written on PeerReview1.pdf (3 pages, 101515 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 13337 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 11265 words of extra memory for PDF output out of 12000 (max. 10000000)
 
